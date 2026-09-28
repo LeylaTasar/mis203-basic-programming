@@ -1,4 +1,7 @@
 # mis203-basic-programming
+
+##Week 01
+
 Name: [Leyla Taşar]
 Student Number: [2404109010]
 Department: [Management Information Systems]
