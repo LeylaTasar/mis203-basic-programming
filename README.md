@@ -38,4 +38,25 @@ The `break` statement immediately stops the infinite `while True` loop as soon a
 **Why does the order of the rules matter?:** The order matters because an `if-elif` statement stops checking as soon as it finds a match. If the "Student" rule was checked before the "Child" rule, a 10-year-old student would trigger the 30% Student discount and the program would skip over the 40% Child discount, causing them to pay more than they should.
 
 
+
+## Week 04
+
+**AI Tool Used:** Gemini
+# The Imposter Game 
+
+A fun, local multiplayer terminal game for 3 players built with Python. 
+
+## About the Game
+In each round, two players (the Innocents) receive the same secret word, while one player (the Imposter) receives a different but similar word. Players take turns giving subtle clues about their word without saying it directly. 
+
+After all clues are given, players vote on who they think the Imposter is!
+* **If caught:** Innocents get 500 points each.
+* **If hidden:** The Imposter gets 500 points.
+
+## How to Run
+1. Save the code in a file named `imposter_game.py`.
+2. Open your terminal or command prompt.
+3. Run the script using the following command:
+   ```bash
+   python imposter_game.py
   
